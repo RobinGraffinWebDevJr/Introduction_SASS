@@ -1,0 +1,125 @@
+@import "https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css";
+html, body {
+  font-size: 14px;
+}
+
+body {
+  background: #ccc;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+p {
+  margin: 1rem;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  border: 1px solid #ccc;
+}
+
+.table thead {
+  color: #fff;
+  background: #000;
+}
+
+.table thead th {
+  background: #00f;
+}
+
+.btn, .card-action, .btn-danger, .card-cancel {
+  padding: 5rem / strip-unit(14px) 12rem / strip-unit(14px);
+  color: #fff;
+  background: #4d4d4d;
+  border-radius: 3px;
+  padding: 5px 12px;
+  text-decoration: none;
+}
+
+.btn:hover, .card-action:hover, .btn-danger:hover, .card-cancel:hover {
+  background: #4d4d4d80;
+}
+
+@media screen {
+  .btn, .card-action, .btn-danger, .card-cancel {
+    padding: 10px;
+  }
+}
+
+.btn-danger, .card-cancel {
+  background: #43629b;
+}
+
+.btn-danger:hover, .card-cancel:hover {
+  background: #343434;
+}
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 1px 5px #00000080;
+}
+
+.card:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid #fff;
+  border-left: 10px solid #0000;
+  border-right: 10px solid #0000;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 10px);
+}
+
+.card-actions {
+  display: flex;
+}
+
+.m-1 {
+  margin: 0 1rem;
+}
+
+.m-2 {
+  margin: 0 2rem;
+}
+
+.m-3 {
+  margin: 0 3rem;
+}
+
+.m-4 {
+  margin: 0 4rem;
+}
+
+.chien {
+  color: #fff;
+  background: #524c4c;
+}
+
+.chat {
+  color: #000;
+  background: #d4a133;
+}
+
+.poisson {
+  color: #fff;
+  background: #272792;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-actions {
+    display: block;
+  }
+
+  .btn, .btn-danger, .card-action, .card-cancel {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
